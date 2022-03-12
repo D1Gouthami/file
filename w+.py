@@ -1,0 +1,5 @@
+f=open("s.txt","w+")
+f.write("i am gouthami from banaraus\n")
+f.write("i like place")
+f=open("s.txt","r")
+print(f.read())

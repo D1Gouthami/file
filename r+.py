@@ -1,0 +1,5 @@
+f = open("star.txt", "r+")
+print(f.read())
+f.write("i am studing mba")
+print(f.read())
+f.close()
